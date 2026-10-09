@@ -6,51 +6,53 @@
 <title>IYAD OTAKOU</title>
 <style>
   html, body { 
-    margin: 0; 
-    padding: 0; 
-    background-image: url('bg.jpg'); 
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #0b0d10;
-    color: #c8ced8;
-    font: 15px/1.45 "Segoe UI", system-ui, sans-serif; 
-    direction: ltr;
-    min-height: 100vh;
+    margin: 0 !important; 
+    padding: 0 !important; 
+    /* تثبيت خلفية Ghost بالإجبار لمنع السكريبت من مسحها */
+    background-image: url('bg.jpg') !important; 
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-color: #0b0d10 !important;
+    color: #c8ced8 !important;
+    font: 15px/1.45 "Segoe UI", system-ui, sans-serif !important; 
+    direction: ltr !important;
+    min-height: 100vh !important;
   }
   #brand { 
-    text-align: center; 
-    padding: 10px 12px; 
-    background: rgba(14, 17, 22, 0.85);
-    border-bottom: 1px solid #1e2732; 
+    display: block !important;
+    text-align: center !important; 
+    padding: 10px 12px !important; 
+    background: rgba(14, 17, 22, 0.85) !important;
+    border-bottom: 1px solid #1e2732 !important; 
   }
   #brand img { 
-    width: 32px; 
-    height: 32px; 
-    margin-right: 8px; 
-    border-radius: 50%;
-    vertical-align: middle; 
-    object-fit: cover;
+    width: 32px !important; 
+    height: 32px !important; 
+    margin-right: 8px !important; 
+    border-radius: 50% !important;
+    vertical-align: middle !important; 
+    object-fit: cover !important;
   }
   #brand b { 
-    font-size: 16px; 
-    font-weight: 700; 
-    letter-spacing: .12em;
-    color: #e6ebf2; 
-    vertical-align: middle; 
+    font-size: 16px !important; 
+    font-weight: 700 !important; 
+    letter-spacing: .12em !important;
+    color: #e6ebf2 !important; 
+    vertical-align: middle !important; 
   }
   #spin { 
-    margin: 30px auto 10px; 
-    width: 40px; 
-    height: 40px; 
-    border: 4px solid rgba(255,255,255,0.1); 
-    border-left-color: #7fd0a0; 
-    border-radius: 50%; 
-    animation: spin 1s linear infinite; 
+    margin: 30px auto 10px !important; 
+    width: 40px !important; 
+    height: 40px !important; 
+    border: 4px solid rgba(255,255,255,0.1) !important; 
+    border-left-color: #7fd0a0 !important; 
+    border-radius: 50% !important; 
+    animation: spin 1s linear infinite !important; 
   }
   @keyframes spin { 100% { transform: rotate(360deg); } }
-  #msg { text-align: center; font-size: 18px; font-weight: bold; margin-top: 10px; }
+  #msg { text-align: center !important; font-size: 18px !important; font-weight: bold !important; margin-top: 10px !important; }
 </style>
 </head>
 <body>
