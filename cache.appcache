@@ -1,7 +1,9 @@
 CACHE MANIFEST
-# rev 20261009-iyad-otakou-v1
+# rev 20261009-hd-ghost-v2
 
 index.html
+logo.png
+bg.jpg
 jb.html
 jb.js
 core.js
